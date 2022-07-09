@@ -22,7 +22,7 @@ node {
     build job: 'SleepAnHour', parameters: [string(name: 'sleep_seconds', value: seconds)]
   }, secondBranch: {
     // do something else
-    build job: 'SleepTwoHours', parameters: [string(name: 'sleep_seconds', value: seconds)]
+    build job: 'SleepThreeHours', parameters: [string(name: 'sleep_seconds', value: seconds)]
       },
        failFast: true
     }
